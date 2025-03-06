@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "db:initiate": "node ./shop/src/db/initiate.js",
+    "db:initiate": "node ./shop/src/db/initiate.js && node ./social-network/src/db/initiate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",

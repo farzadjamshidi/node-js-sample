@@ -11,4 +11,8 @@ Create shop db manually for your user in postgress
 
 npm run db:initiate
 
+Create social network db manually for your user in postgress
 
+npm run db:initiate
+
+npm run dev
